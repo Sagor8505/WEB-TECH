@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.2em;
+}
+
+.dashboard-form {
+    width: 60vw;
+    min-width: 320px;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 32px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 16px #c3c3c3;
+    font-size: 1.15em;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 16px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+.dashboard-number {
+    font-size: 1.4em;
+    color: blue;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+input[type="button"] {
+    margin: 12px 10px 0 0;
+    padding: 10px 30px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background: #145a86;
+}
+.error-message {
+    color: red !important;
+    font-weight: bold;
+}

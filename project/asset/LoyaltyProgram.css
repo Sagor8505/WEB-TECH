@@ -1,0 +1,121 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #fdf6e3, #f9fff4);
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered Form Wrapper */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Fieldset Styles */
+fieldset {
+    border: 2px solid #3399cc;
+    padding: 25px;
+    background-color: #ffffff;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #226699;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #3399cc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3399cc;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Points Progress Bar */
+.points-bar {
+    width: 100%;
+    background-color: #eee;
+    border-radius: 8px;
+    height: 20px;
+    margin: 10px 0 15px 0;
+}
+
+.points-progress {
+    height: 100%;
+    background-color: #3399cc;
+    border-radius: 8px;
+}
+
+/* Buttons */
+input[type="submit"] {
+    background-color: #3399cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #226699;
+}
+
+/* Alerts */
+.alert-box {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Tier Benefits List */
+ul {
+    padding-left: 20px;
+}
+ul li {
+    margin-bottom: 5px;
+}

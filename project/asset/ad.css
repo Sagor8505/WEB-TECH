@@ -1,0 +1,190 @@
+/* Styling for the Admin Panel */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #eaf2f8; /* Light blue background */
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a5f; /* Dark blue for the header */
+}
+
+h2 {
+    text-align: center;
+    color: #007bff; /* Blue color for subheading */
+}
+
+/* Admin Card Styling */
+.admin-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #5fa2d2; /* Blue border around the card */
+}
+
+/* Table for displaying users */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #5fa2d2; /* Blue border for table */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+button {
+    background-color: #007bff; /* Blue background for buttons */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Filter, Bulk Actions, and other Sections */
+fieldset {
+    border: 1px solid #5fa2d2; /* Blue border for fieldset */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f0f8ff; /* Light blue background for fieldset */
+}
+
+legend {
+    font-weight: bold;
+    color: #007bff; /* Blue color for the legend text */
+}
+
+/* Styling input fields */
+input[type="button"], select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #5fa2d2; /* Blue border for input fields */
+    background-color: #f0f8ff; /* Light blue background for input fields */
+}
+
+input[type="button"] {
+    background-color: #007bff; /* Blue background for action buttons */
+    color: white;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Simple Layout for Buttons */
+fieldset input[type="button"] {
+    width: auto;
+    margin: 10px 0;
+}
+
+/* Validation Message */
+.error-message {
+    color: red; /* Set error messages to red */
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: normal;
+    margin-bottom: 10px; /* Adds space below the error message */
+}
+
+/* Error message container styles */
+select, input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px; /* Space between input fields and error messages */
+    display: block; /* Ensure each input and error message is on a new line */
+    border-radius: 5px;
+    border: 1px solid #5fa2d2; /* Blue border for input fields */
+    background-color: #f0f8ff; /* Light blue background for input fields */
+}
+
+/* Ensures form elements and error messages are spaced out evenly */
+label {
+    font-weight: bold;
+}
+
+/* Spacing between the input fields and error messages */
+select, input[type="text"], input[type="file"] {
+    margin-bottom: 10px; /* Add space between input fields and validation messages */
+}
+
+/* Styling the confirmation message container */
+#confirmationMessage {
+    color: green;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Styling for the "Saved Preferences" section */
+#savedPreferences {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d1f0e2; /* Light green background for saved preferences */
+    border: 1px solid #5fa2d2; /* Blue border for the saved preferences section */
+    border-radius: 8px;
+}
+
+#savedPreferences p {
+    font-weight: bold;
+    color: #007bff; /* Blue color for saved preferences text */
+}
+
+/* Styling for the "Back to Dashboard" button */
+#backButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61; /* Red background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#backButton:hover {
+    background-color: #cc5c4f; /* Darker red on hover */
+}
+
+/* Styling for Rental History */
+fieldset ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+fieldset ul li {
+    margin-bottom: 5px;
+}
+
+/* Styling for the "Save Preferences" button */
+#savePreferences {
+    width: auto;
+    padding: 10px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#savePreferences:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+

@@ -1,0 +1,118 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e6f2ff, #f9fcff);
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered Form Wrapper */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Fieldset */
+fieldset {
+    border: 2px solid #3399cc;
+    padding: 25px;
+    background-color: #ffffff;
+    max-width: 750px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #226699;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #3399cc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #3399cc;
+    color: white;
+}
+td {
+    background-color: #f9f9f9;
+}
+
+/* Buttons */
+button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+}
+button:hover {
+    background-color: #c9302c;
+}
+
+/* Notification buttons */
+#notifications button {
+    background-color: #3399cc;
+}
+#notifications button:hover {
+    background-color: #226699;
+}
+
+/* Inputs and Submit */
+input[type="text"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #3399cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #226699;
+}
+
+/* Alerts */
+.alert-box {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
